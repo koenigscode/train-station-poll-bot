@@ -1,0 +1,7 @@
+version: "3"
+services:
+  train-station-poll-bot:
+    build: .
+    command: npm run start
+    env_file: env_file
+    restart: always
